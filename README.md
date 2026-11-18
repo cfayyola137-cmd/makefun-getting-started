@@ -30,7 +30,7 @@ I love make.fun because it honors the developer's native workflow. Instead of fo
 ## Step-by-Step Guide
 
 ### 1. Create Your Account & Authenticate the CLI
-1. Head over to [https://make.fun/r/sf0vzcxa](https://make.fun/r/sf0vzcxa) and Create an account on make.fun, then confirm your email.
+1. Create an account on make.fun and confirm your email — start from [https://make.fun/r/sf0vzcxa](https://make.fun/r/sf0vzcxa).
 2. Set up your profile username and avatar.
 3. Link your GitHub account and Solana wallet.
 4. Connect your local machine CLI to your account:
