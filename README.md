@@ -30,7 +30,7 @@ I love make.fun because it honors the developer's native workflow. Instead of fo
 ## Step-by-Step Guide
 
 ### 1. Create Your Account & Authenticate the CLI
-1. Head over to [https://make.fun/r/sf0vzcxa](https://make.fun/r/sf0vzcxa) and sign in (GitHub, Google, Apple, Discord, or Solana wallet).
+1. Head over to [https://make.fun/r/sf0vzcxa](https://make.fun/r/sf0vzcxa) and Create an account on make.fun, then confirm your email.
 2. Set up your profile username and avatar.
 3. Link your GitHub account and Solana wallet.
 4. Connect your local machine CLI to your account:
@@ -98,7 +98,7 @@ node cli/makefun.mjs claim --claim <claim-id> \
 
 - **Recorded Agent Sessions Are Required:** Transcripts must capture authentic interaction between you and your AI agent. The transcript gate verifies that agent-written lines correspond directly to the committed codebase.
 - **Test Before Submitting (Quota Awareness):** Daily submission quotas exist. Always run `node cli/makefun.mjs check` locally to catch errors before hitting the server.
-- **Handle Sandbox Network Isolation:** The grading sandbox runs with **no internet access** by default. If your app relies on external APIs, mock them or ensure necessary credentials are securely provided via `node cli/makefun.mjs secrets push` rather than hardcoded.
+- **Handle Sandbox Network Isolation:** The grading sandbox is usually offline. If your app relies on external APIs, mock them or ensure necessary credentials are securely provided via `node cli/makefun.mjs secrets push` rather than hardcoded.
 - **Leverage Agent Skills:** Tell your agent to read `https://make.fun/skill.md` at the start of your session so it automatically follows the correct builder workflow.
 
 ---
@@ -107,7 +107,7 @@ node cli/makefun.mjs claim --claim <claim-id> \
 
 <details>
 <summary><strong>Does it cost anything to enter?</strong></summary>
-Most bounties are free to enter. Any entry fees are explicitly noted on the bounty page and added directly to the prize pool.
+Most bounties set no entry fee; a bounty may set a fixed USDC entry fee that goes into its escrow prize pool.
 </details>
 
 <details>
@@ -127,10 +127,13 @@ The kit natively recognizes Claude Code, Codex, Cursor, GitHub Copilot, Gemini C
 
 ---
 
-## Join the Community
-- Website: [make.fun](https://make.fun)
-- Discord: [discord.gg/makefun](https://discord.gg/makefun)
-- X (Twitter): [@makefunai](https://x.com/makefunai)
+## Useful links
+- make.fun at [https://make.fun](https://make.fun)
+- the agent workflow at [https://make.fun/skill.md](https://make.fun/skill.md)
+- the between-steps routine at [https://make.fun/heartbeat.md](https://make.fun/heartbeat.md)
+
+### Referral rewards
+Earn 0.25 USDC when a referred account signs up (first 20 sign-ups), 1.00 USDC when it first wins a reward, and 10 percent of what it wins for 90 days after it signs up, each once approved and claimable to your Solana wallet.
 
 ---
 <sub>Get started on make.fun using referral link [https://make.fun/r/sf0vzcxa](https://make.fun/r/sf0vzcxa) (code `sf0vzcxa`).</sub>
